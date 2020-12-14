@@ -1,0 +1,15 @@
+{
+  "name": "deptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dummy.js",
+  "scripts": {
+    "build": "onelua main.lua out.lua",
+    "start": "lua out.lua"
+  },
+  "onelua": {
+    "main": "adep.lua"
+  },
+  "author": "",
+  "license": "MIT"
+}
